@@ -7,15 +7,12 @@ Anywhere around the globe safety of women, kids and elderly is a concerned topic
 1) SOS based on shake detection.
 2) Instant Image Capturing and sharing for evidence.
 3) Location Sharing with SOS, with button control.
-4) Nearest Police Station showcasing on map with augmented reality
-support.
+4) Nearest Police Station showcasing on map.
 5) Feature to play a siren voice to scare attackers.
 6) Self Defence Lessons along with videos.
 7) Complete dynamic user database.
 8) News updates about crimes in the area.
-9) Feature to book an OLA ride directly from the app to call a cab or
-send notifications to nearby users of the app while a rescue team
-arrives.
+9) Feature to book an OLA ride directly from the app to call a cab or send notifications to nearby users of the app while a rescue team arrives.
 10)Feature to activate the SOS from voice command.
 
 # 3)Scope 
