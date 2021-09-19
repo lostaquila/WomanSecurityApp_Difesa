@@ -64,3 +64,8 @@ Availability of cellular towers near the area.
 # Level 0 Data Flow Diagram
 
 ![LEVEL-0 DFD](https://user-images.githubusercontent.com/54720964/133940764-08e80122-00de-489a-8558-d8620511050d.png)
+
+# Level 1 Data Flow Diagram
+
+![Level 1 -DFD](https://user-images.githubusercontent.com/54720964/133940806-1c76fc72-fce2-43dc-ab2c-f6f6be0a96d1.png)
+
