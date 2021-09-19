@@ -1,4 +1,4 @@
-# WomanSecurityApp_Difesa
+# WomanSecurityApp_Difesa(Suraksha)
 Anywhere around the globe safety of women, kids and elderly is a concerned topic. In a country like India where a woman needs to think twice before leaving the house after 9 PM, a safety tool is required which should be easy to handle and perform all the required safety functions to ensure the safety of the users. The idea of this project is to create an app which serves the purpose of acting as a tool which can help the user to protect him/her from the offender while taking an evidence and sending a SOS distress signal to the concerned authorities or the family of the victim. The general idea is to build an app which full-fills all the requirements mentioned above
 
 # 2)Features:
@@ -60,3 +60,7 @@ Stable Internet connection required.
 Mobile must have an Android operating system.
 Accelerometer and GPS must be inbuilt in mobile
 Availability of cellular towers near the area.
+
+# Level 0 Data Flow Diagram
+
+![LEVEL-0 DFD](https://user-images.githubusercontent.com/54720964/133940764-08e80122-00de-489a-8558-d8620511050d.png)
