@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skull1.hackathon1">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="com.javapapers.android.googleplacesdetail.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.javapapers.android.googleplacesdetail.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature android:name="android.hardware.telephony" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_swa"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_swa"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Medical.Pedometer"></activity>
+        <activity android:name=".Home.aadharupload" />
+        <activity android:name=".Home.uploadPDF" />
+        <activity android:name=".Home.LocationCapture" />
+        <activity android:name=".Home.VoiceRecorder" />
+        <activity android:name=".Photosave" />
+        <activity android:name=".Front.HomeFragmentmain" />
+        <activity android:name=".Front.CameraActivity" />
+        <activity android:name=".Bluetooth.Receiver" />
+        <activity android:name=".Bluetooth.PinControl" />
+        <activity android:name=".Bluetooth.DeviceList" />
+        <activity android:name=".Bluetooth.Actions" />
+        <activity android:name=".News.NewsActivity" />
+        <activity android:name=".Front.SettingsMainsActivity" />
+        <activity android:name=".Front.MessageMainActivity" />
+        <activity android:name=".Front.MainXActivity" />
+        <activity android:name=".Front.ServiceActivity" />
+        <activity android:name=".News.DetailsActivity" />
+        <activity android:name=".Front.SplashScrActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Front.SplashActivity" />
+        <activity android:name=".Front.SosActivity" />
+        <activity android:name=".Front.CalendarActivity" />
+        <activity android:name=".Front.EmailActivity" />
+        <activity android:name=".Medical.HospitalFind" />
+        <activity android:name=".Front.loginpage" />
+        <activity android:name=".Login.signparent" />
+        <activity android:name=".Front.LoginActivity" />
+        <activity android:name=".Front.RegistrationActivity" />
+        <activity android:name=".Front.PWresetActivity" />
+        <activity android:name=".Medical.bcgActivity" />
+        <activity
+            android:name=".Front.HomeNew"
+            android:label="Secure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Selections.PregActivity" />
+        <activity android:name=".Selections.Child1Activity" />
+        <activity android:name=".Front.InfantFragment" />
+        <activity android:name=".Front.SelectActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCWk4jh3IxB9OBFyKPJEy74PjSIUBG-36U" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Front.MapActivity"
+            android:label="@string/title_activity_map"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Front.PermissionsActivity" />
+        <activity android:name=".Login.CustomerLoginActivity" />
+        <activity android:name=".Login.GovtLoginActivity" />
+        <activity android:name=".Front.MainActivity" />
+
+        <service android:name=".Front.ShakeService" />
+    </application>
+
+</manifest>
