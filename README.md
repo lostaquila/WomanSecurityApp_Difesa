@@ -15,3 +15,48 @@ support.
 send notifications to nearby users of the app while a rescue team
 arrives.
 10)Feature to activate the SOS from voice command.
+
+# 3)Scope 
+1)The scope of the project can be extended to a global scale. 
+2)Security of people is a concern throughout the world especially in a country like India. 
+3)A good model of this project can be useful in solving a major issue.
+
+# 4)User Requirement: 
+1)Access to the internet and account in google play store to download the app. 
+2)Users must pre-register on the app to access the app so that proper identity proof and contact information exists in the database. 
+3)User is supposed to possess an Android phone which has inbuilt gps and accelerometer and all the permissions required by the app should be approved by the user. 
+
+# 5)Developer Requirement: 
+1)The developer is supposed to maintain a fully functional and dynamic database where the data entered by the user gets recorded. 
+2)The database must be designed in a way so that it is only accessible by the concerned authorities. 
+3)Extreme bug testing required by the developers so that the app does not fail at the time of emergency.
+
+# 6)Non-Functional Requirements:
+
+1)Security 
+-User Confidentiality- The system should not reveal any personal information about the users.
+-Development Access- All development work shall be password protected.
+
+2)Maintenance 
+-Code Maintainability- The programming code shall conform to programming style standards and shall be commented thoroughly. 
+-The application shall be updated periodically as required.
+
+3)Performance
+
+The application should be efficient and reliable enough so that required help is given as soon as possible.
+User verification process should not take much time.
+
+4)Design 
+
+-Customer Scalability- The application must be able to handle multiple user requests simultaneously.
+
+# 7)Solution 
+
+A mobile application is to be created using Android Studio, XMl, Java, Firebase, Mobile Camera,Integration with Messaging Apps,Google Maps API while using the sensors including accelerometer. The database of the application is on Firebase.The front end is made using XML and the backend is on Java. Google Maps API using GPS is used to find locations of nearest police stations. A simplified UI is provided to make the application easy to use and fast to access.
+
+# 8)Limitations:
+
+Stable Internet connection required.
+Mobile must have an Android operating system.
+Accelerometer and GPS must be inbuilt in mobile
+Availability of cellular towers near the area.
