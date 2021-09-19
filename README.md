@@ -69,3 +69,15 @@ Availability of cellular towers near the area.
 
 ![Level 1 -DFD](https://user-images.githubusercontent.com/54720964/133940806-1c76fc72-fce2-43dc-ab2c-f6f6be0a96d1.png)
 
+# Level 2 Data Flow Diagram
+
+![Level 2 DFD](https://user-images.githubusercontent.com/54720964/133941001-fd2f7c59-d0a4-4739-8926-8915d9b9c61e.png)
+
+# Sequence Diagram:
+
+![Sequence Diagram](https://user-images.githubusercontent.com/54720964/133941004-df2e46ca-0251-4ed2-bf32-0b9b17ac1245.png)
+
+# Class Diagram
+
+![Class Diagram](https://user-images.githubusercontent.com/54720964/133941006-5683a62e-3dde-4d66-88ba-ea4b27ee4eb4.png)
+
